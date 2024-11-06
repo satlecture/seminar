@@ -33,6 +33,15 @@
 \newcommand{\highl}[1]{\textcolor{blue}{#1}}
 \newcommand{\highlo}[1]{\textcolor{RedOrange}{#1}}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+	urlcolor = {darkgray}
+}
+
+\usepackage[style=verbose,backend=biber]{biblatex}
+\addbibresource{seminar.bib}
+
 \begin{document}
 
 %Titelseite
@@ -71,17 +80,16 @@
 
 \begin{frame}{SAT and its Extensions}
 	\begin{exampleblock}{1. CDCL and Local Search}
-		%\textcolor{gray}{2009, Audemard \& Simon, “Predicting Learnt Clauses Quality in Modern SAT Solvers“}\\
-		2021, Cai et al., “Deep Cooperation of CDCL and local search for SAT”\\
-		2022, Cai et al., “Better decision heuristics in CDCL through local search and target phases”\\
+		\href{https://doi.org/10.1007/978-3-030-80223-3\_6}{2021, Cai et al., “Deep Cooperation of CDCL and local search for SAT”}\\
+		\href{https://doi.org/10.1613/jair.1.13666}{2022, Cai et al., “Better decision heuristics in CDCL through local search and target phases”}\\
 	\end{exampleblock}
 	\begin{exampleblock}{2. MaxSAT}
-		2016, Saikko et al., “LMHS: A SAT-IP Hybrid MaxSAT Solver”\\
-		2023, Ihalainen et al., “Unifying Core-Guided and Implicit Hitting Set Based Optimization”		
+		\href{https://doi.org/10.1007/978-3-319-40970-2\_34}{2016, Saikko et al., “LMHS: A SAT-IP Hybrid MaxSAT Solver”}\\
+		\href{https://doi.org/10.24963/ijcai.2023/215}{2023, Ihalainen et al., “Unifying Core-Guided and Implicit Hitting Set Based Optimization”}
 	\end{exampleblock}
 	\begin{exampleblock}{3. Pseudo-Boolean Reasoning}
-		2020, Gocht et al., “VeriPB: The easy way to make your combinatorial search algorithm trustworthy”\\
-		2024, Nieuwenhuis et al., “Speeding-up Pseudo-Boolean Propagation”
+		\href{https://doi.org/10.1609/aaai.v35i5.16494}{2021, Gocht and Nordström, “Certifying Parity Reasoning Efficiently Using Pseudo-Boolean Proofs”}\\
+		\href{https://doi.org/10.4230/LIPIcs.SAT.2024.22}{2024, Nieuwenhuis et al., “Speeding-up Pseudo-Boolean Propagation”}
 	\end{exampleblock}
 \end{frame}
 
@@ -100,28 +108,28 @@
 
 \begin{frame}{Dependable Solving on Modern Hardware}
 	\begin{exampleblock}{4. Proofs in Parallel \& Distributed SAT}
-		2016, Heule et al., “Solving and verifying the boolean pythagorean triples problem via cube-and-conquer”\\
-		2023, Michaelson et al., “Unsatisfiability Proofs for Distributed Solvers”\\
-		2024, Schreiber, “Trusted Scalable SAT Solving with on-the-fly LRAT Checking”
+		\href{https://doi.org/10.1007/978-3-319-40970-2\_15}{2016, Heule et al., “Solving and verifying the boolean pythagorean triples problem via cube-and-conquer”}\\
+		\href{https://doi.org/10.1007/978-3-031-30823-9\_18}{2023, Michaelson et al., “Unsatisfiability Proofs for Distributed Solvers”}\\
+		\href{https://doi.org/10.4230/LIPIcs.SAT.2024.25}{2024, Schreiber, “Trusted Scalable SAT Solving with on-the-fly LRAT Checking”}
 	\end{exampleblock}
 	\begin{exampleblock}{5. Trusted GPU-accelerated SAT Solving}
-		2021, Osama et al., “SAT Solving with GPU Accelerated Inprocessing”\\
-		2023, Osama et al., “Certified SAT solving with GPU accelerated inprocessing”
+		\href{https://doi.org/10.1007/s10703-023-00432-z}{2024, Osama et al., “SAT Solving with GPU Accelerated Inprocessing”}\\
+		\href{https://doi.org/10.1007/978-3-030-17462-0\_2}{2019, Osama and Wijs, “Parallel SAT Simplification on GPU Architectures”}
 		%2021, Prevot et al., “Leveraging GPUs for Effective Clause Sharing in Parallel SAT Solving”
 	\end{exampleblock}
 \end{frame}
 
 \begin{frame}{Data Science and Applications}
 	\begin{exampleblock}{6. Applied Data Science}
-		2018, Elffers et al., “Seeking Practical CDCL Insights from Theoretical SAT Benchmarks”\\
-		2022, Bach et al., “A Comprehensive Study of k-Portfolios of Recent SAT Solvers”
+		\href{https://doi.org/10.24963/ijcai.2018/181}{2018, Elffers et al., “Seeking Practical CDCL Insights from Theoretical SAT Benchmarks”}\\
+		\href{https://doi.org/10.4230/LIPIcs.SAT.2022.2}{2022, Bach et al., “A Comprehensive Study of k-Portfolios of Recent SAT Solvers”}
 	\end{exampleblock}
 	\begin{exampleblock}{7. Future Application: Quantum Circuit Layout}
-		2024, Shaik et al., “Optimal Layout Synthesis for Deep Quantum Circuits on NISQ Processors with 100+ Qubits”\\
-		2024, Yang et al., “Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving”
+		\href{https://doi.org/10.4230/LIPIcs.SAT.2024.26}{2024, Shaik et al., “Optimal Layout Synthesis for Deep Quantum Circuits on NISQ Processors with 100+ Qubits”}\\
+		\href{https://doi.org/10.4230/LIPIcs.SAT.2024.29}{2024, Yang et al., “Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving”}
 	\end{exampleblock}
 	\begin{exampleblock}{8. Future Applications: XAI}
-		2024, Iser, “Automated Explanation Selection for Scientific Discovery”
+		\href{https://doi.org/10.48550/arXiv.2407.17454}{2024, Iser, “Automated Explanation Selection for Scientific Discovery”}
 	\end{exampleblock}
 \end{frame}
 
