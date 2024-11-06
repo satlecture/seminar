@@ -1,2 +1,2 @@
-# seminar
-Advanced SAT Solving Topics seminar
+
+# Advanced SAT Solving Topics seminar
