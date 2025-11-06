@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.30)  6 NOV 2025 09:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.30)  6 NOV 2025 10:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1464,7 +1464,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/base/8r.enc} <./logos/kitlogo_de_rgb.pdf> <./logos/ae.png> <
 ./logos/blender-6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
  [][] 
  []
 
@@ -1472,7 +1472,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1480,7 +1480,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1490,35 +1490,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 71.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 74.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.19998pt on input line 71.
+(Font)              scaled to size 9.19998pt on input line 74.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 71.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 74.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.43999pt on input line 71.
+(Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 71.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 74.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 4.59999pt on input line 71.
+(Font)              scaled to size 4.59999pt on input line 74.
 <iser.jpg, id=30, 505.89pt x 505.89pt>
 File: iser.jpg Graphic file (type jpg)
 <use iser.jpg>
-Package pdftex.def Info: iser.jpg  used on input line 71.
+Package pdftex.def Info: iser.jpg  used on input line 74.
 (pdftex.def)             Requested size: 85.35173pt x 85.35826pt.
-<schreiber.png, id=31, 569.12625pt x 569.12625pt>
+<nicco.jpg, id=31, 250.9375pt x 247.92625pt>
+File: nicco.jpg Graphic file (type jpg)
+<use nicco.jpg>
+Package pdftex.def Info: nicco.jpg  used on input line 74.
+(pdftex.def)             Requested size: 86.39355pt x 85.35826pt.
+<schreiber.png, id=32, 569.12625pt x 569.12625pt>
 File: schreiber.png Graphic file (type png)
 <use schreiber.png>
-Package pdftex.def Info: schreiber.png  used on input line 71.
+Package pdftex.def Info: schreiber.png  used on input line 74.
 (pdftex.def)             Requested size: 85.35657pt x 85.35826pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 71.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 74.
 (pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
 
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 3.68pt on input line 71.
+(Font)              scaled to size 3.68pt on input line 74.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][] 
@@ -1526,14 +1531,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [2
 
- <./iser.jpg> <./schreiber.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+ <./iser.jpg> <./nicco.jpg> <./schreiber.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
  [][] 
  []
 
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 79.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 82.
 (pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
 
 
@@ -1545,18 +1550,18 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 100.
+(Font)              scaled to size 11.03998pt on input line 106.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 100.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 106.
 (pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
 
-Overfull \vbox (46.884pt too high) detected at line 100
+Overfull \vbox (19.75363pt too high) detected at line 106
  []
 
 
@@ -1569,16 +1574,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
  [][] 
  []
 
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 132.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 138.
 (pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
 
-Overfull \vbox (11.57967pt too high) detected at line 132
+Overfull \vbox (11.57967pt too high) detected at line 138
  []
 
 
@@ -1591,16 +1596,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
  [][] 
  []
 
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 151.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 160.
 (pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
 
-Overfull \vbox (27.68321pt too high) detected at line 151
+Overfull \vbox (10.6116pt too high) detected at line 160
  []
 
 
@@ -1634,20 +1639,20 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37234 strings out of 475052
- 730656 string characters out of 5762547
+ 37238 strings out of 475052
+ 730743 string characters out of 5762547
  1589418 words of memory out of 5000000
- 59484 multiletter control sequences out of 15000+600000
- 605605 words of font info for 130 fonts, out of 8000000 for 9000
+ 59491 multiletter control sequences out of 15000+600000
+ 605480 words of font info for 128 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  142i,15n,137p,1189b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (6 pages, 3283909 bytes).
+Output written on presentation.pdf (6 pages, 3321941 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
- 54858 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 54863 words of extra memory for PDF output out of 61914 (max. 10000000)
 

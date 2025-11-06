@@ -1,6 +1,6 @@
 %% Beispiel-Präsentation
 \documentclass[de]{sdqbeamer} 
- 
+
 %% Titelbild
 \titleimage{blender-6}
 
@@ -19,7 +19,7 @@
 \date[2025-11-06]{6. November 2025}
 
 % Literatur 
- 
+
 %\usepackage[citestyle=authoryear,bibstyle=numeric,hyperref,backend=biber]{biblatex}
 %\addbibresource{presentation.bib}
 %\bibhang1em
@@ -35,7 +35,7 @@
 
 \usepackage{hyperref}
 \hypersetup{
-    colorlinks = true,
+	colorlinks = true,
 	urlcolor = {darkgray}
 }
 
@@ -43,115 +43,124 @@
 \addbibresource{seminar.bib}
 
 \begin{document}
-
-%Titelseite
-\KITtitleframe
-
-\begin{frame}{Organisatorisches}
-	\begin{itemize}
-		\item Ausführlicher Vortrag (30 min. + 15 min. Fragen), keine Ausarbeitung
-		\item 2-3 Papiere aus einem gemeinsamen Themenblock einordnen, kommentieren, vergleichen
-		\item Unterstützung und Beratung von Betreuerseite
-		\item $n$ Vortragstermine (für kleine $n$) nach Absprache
-	\end{itemize}
-
-\ 
-
-	\begin{columns}
-		\begin{column}{0.49\textwidth}
-			\centering \includegraphics[height=3cm]{iser.jpg}\\
-			iser@kit.edu\\
-			
-		\end{column}
-		\begin{column}{0.49\textwidth}
-			\centering \includegraphics[height=3cm]{schreiber.png}\\
-			schreiber@kit.edu
-		\end{column}
-	\end{columns}
-\end{frame}
-
-\begin{frame}{Topics: The Big Picture}
-	\begin{itemize}
-		\item Which \highl{innovative paradigms} for SAT solving and its extensions have emerged in the past few years?
-		\item How can we exploit \highl{modern hardware} for \highl{dependable SAT solving} and its applications?
-		\item How can we \highl{understand and exploit statistical properties} of solvers and problems?
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{SAT and its Extensions}
-	\begin{exampleblock}{1. CDCL and Local Search}
-		\href{https://doi.org/10.1007/978-3-030-80223-3\_6}{2021, Cai et al., “Deep Cooperation of CDCL and local search for SAT”}\\
-		\href{https://doi.org/10.1613/jair.1.13666}{2022, Cai et al., “Better decision heuristics in CDCL through local search and target phases”}\\
-	\end{exampleblock}
-	\begin{exampleblock}{2. Variable Addition}
-		2012: Automated Reencoding of Boolean Formulas, Norbert Manthey, Marijn J.H. Heule and Armin Biere\\
-		2023: Effective Auxiliary Variables via Structured Reencoding, Andrew Haberlandt, Harrison Green, Marijn J.H. Heule 
-	\end{exampleblock}
-	\begin{exampleblock}{3. MaxSAT}
-		\href{https://doi.org/10.1007/978-3-319-40970-2\_34}{2016, Saikko et al., “LMHS: A SAT-IP Hybrid MaxSAT Solver”}\\
-		\href{https://doi.org/10.24963/ijcai.2023/215}{2023, Ihalainen et al., “Unifying Core-Guided and Implicit Hitting Set Based Optimization”}\\
-		\href{https://www.jair.org/index.php/jair/article/download/15986/27058}{2025, Ihalainen et al., “Unifying SAT-Based Approaches to Maximum Satisfiability Solving”}
-	\end{exampleblock}
-	\begin{exampleblock}{4. Pseudo-Boolean Reasoning: Propagation beyond Clauses}
-		% \href{https://doi.org/10.1609/aaai.v35i5.16494}{2021, Gocht and Nordström, “Certifying Parity Reasoning Efficiently Using Pseudo-Boolean Proofs”}\\
-		\href{https://doi.org/10.4230/LIPIcs.SAT.2024.22}{2024, Nieuwenhuis et al., “Speeding-up Pseudo-Boolean Propagation”}\\
-		\href{https://ceur-ws.org/Vol-4008/POS_paper09.pdf}{2025, Müßig \& Johannsen, “Improving Watched Pseudo-Boolean Propagation with Significant Literals”}
-	\end{exampleblock}
-\end{frame}
-
-\iffalse
-\begin{frame}{Preprocessing beyond Resolution}
-	\begin{exampleblock}{4. Extended Resolution}
-		2010, Audemard et al., “A Restriction of Extended Resolution for Clause Learning SAT Solvers”\\
-		2023, Haberlandt et al., “Effective Auxiliary Variables via Structured Reencoding”
-	\end{exampleblock}
-	\begin{exampleblock}{5. Propagation Redundancy}
-		2023, Reeves et al., “Preprocessing of Propagation Redundant Clauses”\\
-		2023, Gao, “Kissat MAB prop in SAT Competition 2023”
-	\end{exampleblock}
-\end{frame}
-\fi
-
-\begin{frame}{Dependable Solving and Modern Hardware}
-	\begin{exampleblock}{4. Proofs in Parallel \& Distributed SAT}
-		\href{https://doi.org/10.1007/978-3-319-40970-2\_15}{2016, Heule et al., “Solving and verifying the boolean pythagorean triples problem via cube-and-conquer”}\\
-		\href{https://doi.org/10.1007/978-3-031-30823-9\_18}{2023, Michaelson et al., “Unsatisfiability Proofs for Distributed Solvers”}\\
-		\href{https://doi.org/10.4230/LIPIcs.SAT.2024.25}{2024, Schreiber, “Trusted Scalable SAT Solving with on-the-fly LRAT Checking”}
-	\end{exampleblock}
-	\begin{exampleblock}{5. GPU-accelerated SAT Solving}
-		\href{https://doi.org/10.1007/978-3-030-17462-0\_2}{2019, Osama and Wijs, “Parallel SAT Simplification on GPU Architectures”}\\
-		\href{https://www.cs.toronto.edu/~meel/Papers/sat21-psm.pdf}{2021, Prevot et al., “Leveraging GPUs for Effective Clause Sharing in Parallel SAT Solving”}\\
-		\href{https://doi.org/10.1007/s10703-023-00432-z}{2024, Osama et al., “SAT Solving with GPU Accelerated Inprocessing”}\\
-		\href{https://ojs.aaai.org/index.php/AAAI/article/download/33211/35366}{2025, Cen et al., ``Massively parallel continuous local search for hybrid SAT solving on GPUs''}
-	\end{exampleblock}
-	\begin{exampleblock}{6. Parallel Model Counting}
-		\href{https://link.springer.com/chapter/10.1007/978-3-319-24318-4_5}{Burchard et al. (2015): Laissez-Faire Caching for Parallel \#SAT Solving}
-		\\
-		\href{https://univ-artois.hal.science/hal-03300776/document}{Lagniez et al. (2018): DMC: A Distributed Model Counter}
-	\end{exampleblock}
-\end{frame}
-
-\begin{frame}{Data Science and Applications}
-	\begin{exampleblock}{6. Algorithm Selection for NP Problems}
-		\href{https://ada.liacs.nl/papers/XuEtAl08.pdf}{2008, Xu et al., “SATzilla: Portfolio-based Algorithm Selection for SAT”}\\
-		\href{https://ada.liacs.nl/papers/HeiEtAl23.pdf}{2022, Heins et al., “A study on the effects of normalized TSP features for automated algorithm selection”}
-	\end{exampleblock}
-	\begin{exampleblock}{7. Circuit Equivalence Checking}
-		Bacchus et al. (2002): Enhancing Davis Putnam with Extended Binary Clause Reasoning\\
-		Biere et al. (2024): Clausal Congruence Closure
-	\end{exampleblock}
-	\begin{exampleblock}{7. Future Application: Quantum Circuit Layout}
-		\href{https://doi.org/10.4230/LIPIcs.SAT.2024.26}{2024, Shaik et al., “Optimal Layout Synthesis for Deep Quantum Circuits on NISQ Processors with 100+ Qubits”}\\
-		\href{https://doi.org/10.4230/LIPIcs.SAT.2024.29}{2024, Yang et al., “Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving”}
-	\end{exampleblock}
-	\begin{exampleblock}{8. Formally Explainable AI (FXAI)}
-		\href{https://arxiv.org/pdf/2410.14219}{2024, Paul et al., “Formal Explanations for Neuro-Symbolic AI”}\\
-		\href{https://arxiv.org/abs/2406.11873}{2024, Marques-Silva, “Logic-Based Explainability: Past, Present \& Future”}
-	\end{exampleblock}
-\end{frame}
-
-
-
-
-
+	
+	%Titelseite
+	\KITtitleframe
+	
+	\begin{frame}{Organisatorisches}
+		\begin{itemize}
+			\item Ausführlicher Vortrag (30 min. + 15 min. Fragen), keine Ausarbeitung
+			\item 2-3 Papiere aus einem gemeinsamen Themenblock einordnen, kommentieren, vergleichen
+			\item Unterstützung und Beratung von Betreuerseite
+			\item $n$ Vortragstermine (für kleine $n$) nach Absprache
+		\end{itemize}
+		
+		\ 
+		
+		\begin{columns}
+			\begin{column}{0.33\textwidth}
+				\centering \includegraphics[height=3cm]{iser.jpg}\\
+				iser@kit.edu\\
+			\end{column}%
+			\begin{column}{0.33\textwidth}
+				\centering \includegraphics[height=3cm]{nicco.jpg}\\
+				niccolo.rigi-luperti@kit.edu\\
+			\end{column}%
+			\begin{column}{0.33\textwidth}
+				\centering \includegraphics[height=3cm]{schreiber.png}\\
+				schreiber@kit.edu
+			\end{column}
+		\end{columns}
+	\end{frame}
+	
+	\begin{frame}{Topics: The Big Picture}
+		\begin{itemize}
+			\item Which \highl{innovative paradigms} for SAT solving and its extensions have emerged in the past few years?
+			\item How can we exploit \highl{modern hardware} for \highl{dependable SAT solving} and its applications?
+			\item How can we \highl{understand and exploit statistical properties} of solvers and problems?
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{SAT and its Extensions}
+		\begin{exampleblock}{1. CDCL and Local Search}
+			\href{https://doi.org/10.1007/978-3-030-80223-3\_6}{2021, Cai et al., “Deep Cooperation of CDCL and local search for SAT”}\\
+			\href{https://doi.org/10.1613/jair.1.13666}{2022, Cai et al., “Better decision heuristics in CDCL through local search and target phases”}\\
+		\end{exampleblock}
+		\vspace*{-2mm}
+		\begin{exampleblock}{2. Variable Addition}
+			\href{https://link.springer.com/chapter/10.1007/978-3-642-39611-3_14}{2012, Manthey et al.: Automated Reencoding of Boolean Formulas}\\
+			\href{https://arxiv.org/abs/2307.01904}{2023, Haberlandt et al.: Effective Auxiliary Variables via Structured Reencoding}\\
+		\end{exampleblock}
+		\vspace*{-2mm}
+		\begin{exampleblock}{3. MaxSAT}
+			\href{https://doi.org/10.1007/978-3-319-40970-2\_34}{2016, Saikko et al., “LMHS: A SAT-IP Hybrid MaxSAT Solver”}\\
+			\href{https://doi.org/10.24963/ijcai.2023/215}{2023, Ihalainen et al., “Unifying Core-Guided and Implicit Hitting Set Based Optimization”}\\
+			\href{https://www.jair.org/index.php/jair/article/download/15986/27058}{2025, Ihalainen et al., “Unifying SAT-Based Approaches to Maximum Satisfiability Solving”}
+		\end{exampleblock}
+		\vspace*{-2mm}
+		\begin{exampleblock}{4. Pseudo-Boolean Reasoning: Propagation beyond Clauses}
+			% \href{https://doi.org/10.1609/aaai.v35i5.16494}{2021, Gocht and Nordström, “Certifying Parity Reasoning Efficiently Using Pseudo-Boolean Proofs”}\\
+			\href{https://doi.org/10.4230/LIPIcs.SAT.2024.22}{2024, Nieuwenhuis et al., “Speeding-up Pseudo-Boolean Propagation”}\\
+			\href{https://ceur-ws.org/Vol-4008/POS_paper09.pdf}{2025, Müßig \& Johannsen, “Improving Watched Pseudo-Boolean Propagation with Significant Literals”}
+		\end{exampleblock}
+	\end{frame}
+	
+	\iffalse
+	\begin{frame}{Preprocessing beyond Resolution}
+		\begin{exampleblock}{4. Extended Resolution}
+			2010, Audemard et al., “A Restriction of Extended Resolution for Clause Learning SAT Solvers”\\
+			2023, Haberlandt et al., “Effective Auxiliary Variables via Structured Reencoding”
+		\end{exampleblock}
+		\begin{exampleblock}{5. Propagation Redundancy}
+			2023, Reeves et al., “Preprocessing of Propagation Redundant Clauses”\\
+			2023, Gao, “Kissat MAB prop in SAT Competition 2023”
+		\end{exampleblock}
+	\end{frame}
+	\fi
+	
+	\begin{frame}{Dependable Solving and Modern Hardware}
+		\begin{exampleblock}{5. Proofs in Parallel \& Distributed SAT}
+			\href{https://doi.org/10.1007/978-3-319-40970-2\_15}{2016, Heule et al., “Solving and verifying the boolean pythagorean triples problem via cube-and-conquer”}\\
+			\href{https://doi.org/10.1007/978-3-031-30823-9\_18}{2023, Michaelson et al., “Unsatisfiability Proofs for Distributed Solvers”}\\
+			\href{https://doi.org/10.4230/LIPIcs.SAT.2024.25}{2024, Schreiber, “Trusted Scalable SAT Solving with on-the-fly LRAT Checking”}
+		\end{exampleblock}
+		\begin{exampleblock}{6. GPU-accelerated SAT Solving}
+			\href{https://doi.org/10.1007/978-3-030-17462-0\_2}{2019, Osama and Wijs, “Parallel SAT Simplification on GPU Architectures”}\\
+			\href{https://www.cs.toronto.edu/~meel/Papers/sat21-psm.pdf}{2021, Prevot et al., “Leveraging GPUs for Effective Clause Sharing in Parallel SAT Solving”}\\
+			\href{https://doi.org/10.1007/s10703-023-00432-z}{2024, Osama et al., “SAT Solving with GPU Accelerated Inprocessing”}\\
+			\href{https://ojs.aaai.org/index.php/AAAI/article/download/33211/35366}{2025, Cen et al., ``Massively parallel continuous local search for hybrid SAT solving on GPUs''}
+		\end{exampleblock}
+		\begin{exampleblock}{7. Parallel Model Counting}
+			\href{https://link.springer.com/chapter/10.1007/978-3-319-24318-4_5}{Burchard et al. (2015): Laissez-Faire Caching for Parallel \#SAT Solving}
+			\\
+			\href{https://univ-artois.hal.science/hal-03300776/document}{Lagniez et al. (2018): DMC: A Distributed Model Counter}
+		\end{exampleblock}
+	\end{frame}
+	
+	\begin{frame}{Data Science and Applications}
+		\begin{exampleblock}{8. Algorithm Selection for NP Problems}
+			\href{https://ada.liacs.nl/papers/XuEtAl08.pdf}{2008, Xu et al., “SATzilla: Portfolio-based Algorithm Selection for SAT”}\\
+			\href{https://ada.liacs.nl/papers/HeiEtAl23.pdf}{2022, Heins et al., “A study on the effects of normalized TSP features for automated algorithm selection”}
+		\end{exampleblock}
+		\vspace*{-2mm}
+		\begin{exampleblock}{9. Circuit Equivalence Checking}
+			\href{https://dl.acm.org/doi/10.5555/777092.777187}{Bacchus et al. (2002): Enhancing Davis Putnam with Extended Binary Clause Reasoning}\\
+			\href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2024.6}{Biere et al. (2024): Clausal Congruence Closure}
+		\end{exampleblock}
+		\vspace*{-2mm}
+		\begin{exampleblock}{10. Future Application: Quantum Circuit Layout}
+			\href{https://doi.org/10.4230/LIPIcs.SAT.2024.26}{2024, Shaik et al., “Optimal Layout Synthesis for Deep Quantum Circuits on NISQ Processors with 100+ Qubits”}\\
+			\href{https://doi.org/10.4230/LIPIcs.SAT.2024.29}{2024, Yang et al., “Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving”}
+		\end{exampleblock}
+		\vspace*{-2mm}
+		\begin{exampleblock}{11. Formally Explainable AI (FXAI)}
+			\href{https://arxiv.org/pdf/2410.14219}{2024, Paul et al., “Formal Explanations for Neuro-Symbolic AI”}\\
+			\href{https://arxiv.org/abs/2406.11873}{2024, Marques-Silva, “Logic-Based Explainability: Past, Present \& Future”}
+		\end{exampleblock}
+	\end{frame}
+	
+	
+	
+	
+	
 \end{document}
