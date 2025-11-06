@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.30)  6 NOV 2025 10:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.30)  6 NOV 2025 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1405,8 +1405,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `presentation.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'presentation.bbl' found.
 
+
+Package biblatex Warning: File 'presentation.bbl' is wrong format version - exp
+ected 3.3.
+
+Package biblatex Info: ... file 'presentation.bbl' found.
 (./presentation.bbl)
 Package biblatex Info: Reference section=0 on input line 45.
 Package biblatex Info: Reference segment=0 on input line 45.
@@ -1632,17 +1636,26 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                presentation
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37238 strings out of 475052
- 730743 string characters out of 5762547
- 1589418 words of memory out of 5000000
- 59491 multiletter control sequences out of 15000+600000
+ 37239 strings out of 475052
+ 730758 string characters out of 5762547
+ 1589515 words of memory out of 5000000
+ 59492 multiletter control sequences out of 15000+600000
  605480 words of font info for 128 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  142i,15n,137p,1189b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
