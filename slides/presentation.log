@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  6 NOV 2025 09:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  6 NOV 2025 09:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1283,7 +1283,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 134.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 135.
 (pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1312,16 +1312,16 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 Here is how much of TeX's memory you used:
  36740 strings out of 478287
  728604 string characters out of 5849289
- 1453168 words of memory out of 5000000
+ 1454168 words of memory out of 5000000
  54145 multiletter control sequences out of 15000+600000
  515902 words of font info for 120 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  142i,15n,136p,1178b,2455s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (6 pages, 3282019 bytes).
+Output written on presentation.pdf (6 pages, 3282092 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
  54858 words of extra memory for PDF output out of 61914 (max. 10000000)
 
