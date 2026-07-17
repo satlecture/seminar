@@ -1,4 +1,4 @@
 # GitHub Pages / Jekyll configuration
-title: Seminar: Advanced SAT Solving Topics
+title: "Seminar: Advanced SAT Solving Topics"
 description: This seminar explores recent innovations in SAT solving and its extensions, focusing on emerging algorithmic paradigms, the utilization of modern hardware for dependable solving, and the analysis of statistical properties in both solvers and problem instances. Participants will be tasked with selecting and analyzing two to three papers from a shared thematic area, providing a comprehensive critique and comparison through a 30-minute presentation followed by a 15-minute Q&A session.
 theme: jekyll-theme-primer
